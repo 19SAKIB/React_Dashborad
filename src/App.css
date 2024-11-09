@@ -1,0 +1,155 @@
+/* App Layout */
+.app {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+.content{
+    display: flex;
+}
+.sidebar {
+  width: 200px;
+  background-color: #f0f4f8;
+  padding: 20px;
+}
+.sidebar h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar ul li {
+  margin: 10px 0;
+  cursor: pointer;
+  color: #333;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.sidebar ul li:hover{
+    background-color: skyblue;
+    padding: 10px;
+}
+/* Dashboard */
+.dashboard {
+  flex: 1;
+  padding: 20px;
+  background-color:#fff ;
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 8px 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #e0e7ff;
+  border: none;
+  border-radius: 4px;
+}
+
+.active {
+  background-color: #a3bffa;
+} 
+/* Chapter List */
+.chapter-list {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  width: 600PX;
+}
+
+.chapter {
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.chapter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9fafb;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.chapter-info span {
+  margin-right: 10px;
+  color: #6b7280;
+}
+
+.chapter-items {
+  padding: 10px;
+}
+
+.chapter-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.chapter-item:last-child {
+  border-bottom: none;
+}
+
+
+/* navnar css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* background-color: #f8fafc; */
+    background-color: #333;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .navbar h3 {
+    color: #fff;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .navbar-items {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-items span {
+    margin-left: 20px;
+    color: #6b7280;
+    cursor: pointer;
+  }
+  
+  .navbar-items span:hover {
+    color: #fff;
+  }
+  
+  .icon {
+    margin-left: 20px;
+    color: #6b7280;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  .icon:hover{
+    color:#fff;
+  }
+  
+  .profileImage{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2PX SOLID lightblue;
+    margin-left: 15px;
+  }
+  
